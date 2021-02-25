@@ -38,7 +38,7 @@ const getData = (city) => {
         weather.appendChild(appendedImgContainer)
         appendedImgContainer.classList.add("img-container");
         appendedImgContainer.appendChild(img);
-        img.setAttribute('src', `http:${data.current.condition.icon}`);
+        img.setAttribute('src', `https:${data.current.condition.icon}`);
         img.setAttribute('width', '100px');
         appendedImgContainer.appendChild(appendedImgText);
         appendedImgText.innerHTML=data.current.condition.text;
