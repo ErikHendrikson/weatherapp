@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    background: linear-gradient(190deg, rgb(44, 112, 129), rgb(117, 151, 179));
+}
+
+.searchfield {
+    margin-top: -10%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    flex-direction: column;
+    background: transparent;
+    width: 40%;
+    height: 40%;
+}
+
+h1 {
+    font-family: "Quicksand";
+    color: White;
+    padding: 10px;
+}
+
+h3 {
+    font-family: "Quicksand";
+    color: White;
+    padding: 10px;
+}
+
+#search {
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border: 0;
+    width: 300px;
+    height: 50px;
+    background: rgb(50, 88, 119);
+    outline: none;
+    font-family: "Quicksand";
+    color: white;
+    font-size: 1.3rem;
+    padding-left: 5px;
+}
+
+#submit {
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border: 0;
+    width: 100px;
+    height: 50px;
+    background: rgb(224, 199, 86);
+    color: white;
+    font-family: "Quicksand";
+    font-size: 1.3rem;
+    outline: none;
+}
+
+.resultfield {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(11, 67, 100);
+    width: 50%;
+    margin-right: 5%;
+    height: 50%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 0px 5px rgb(85, 132, 151);
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text {
+    display: flex;
+    font-size: 1.5rem;
+    font-family: "Quicksand";
+    color: White;
+    padding: 10px;
+}
+
+.info {
+    font-size: 1rem;
+}
+
+.name {
+    padding-bottom: 40px;
+}
+
+.weather {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+@media only screen and (max-width: 500px){
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        max-height: 100%;
+        background: linear-gradient(190deg, rgb(44, 112, 129), rgb(117, 151, 179));
+    }
+
+    .resultfield {
+        display: flex;
+        margin-right: 0;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background: rgb(11, 67, 100);
+        width: 95%;
+        height: 50%;
+        border-radius: 5%;
+        box-shadow: 0px 0px 0px 5px rgb(85, 132, 151);
+    }
+
+    .searchfield {
+        margin-top: 0;
+        margin-left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items:flex-start;
+        flex-direction: column;
+        background: transparent;
+        width: 90%;
+        height: 40%;
+    }
+
+    #search {
+        margin-left: 0px;
+        border-radius: 10px 10px 10px 10px;
+        border: 0;
+        width: 200px;
+        height: 50px;
+        background: rgb(50, 88, 119);
+        outline: none;
+        font-family: "Quicksand";
+        color: white;
+        font-size: 1.3rem;
+        padding-left: 5px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .text {
+        display: flex;
+        font-size: 1rem;
+        font-family: "Quicksand";
+        color: White;
+        padding: 10px;
+    }
+    
+    .info {
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-family: "Quicksand";
+        color: White;
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    
+    h3 {
+        font-family: "Quicksand";
+        color: White;
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    #submit {
+        margin-left: 10px;
+        border-radius: 10px 10px 10px 10px;
+        border: 0;
+        width: 70px;
+        height: 50px;
+        background: rgb(224, 199, 86);
+        color: white;
+        font-family: "Quicksand";
+        font-size: 1.1rem;
+        outline: none;
+    }
+
+}
