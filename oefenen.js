@@ -26,7 +26,7 @@ const sendHttpRequest = (method, url, data) => {
 };
 
 const getData = (city) => {
-    sendHttpRequest('GET', `http://api.weatherapi.com/v1/forecast.json?key=656c8ac5fa7a470f86c102142212402&q=${city}`)
+    sendHttpRequest('GET', `https://api.weatherapi.com/v1/forecast.json?key=656c8ac5fa7a470f86c102142212402&q=${city}`)
     .then(data => {
         // log data
         console.log(data.forecast.forecastday); 
