@@ -68,6 +68,10 @@ h3 {
     outline: none;
 }
 
+#submit:hover {
+    cursor: pointer;
+} 
+
 .resultfield {
     display: flex;
     align-items: center;
